@@ -26,12 +26,8 @@ function Rating() {
 function Accordion() {
     return (
         <div>
-            <h3>Menu</h3>
-            <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
+            <AccordionTitle/>
+            <AccordionBody/>
         </div>
     )
 }
@@ -47,5 +43,26 @@ function AppTitle() {
         <>This is APP component</>
     )
 }
+
+function AccordionTitle() {
+    return (
+        <div>
+            <h3>Menu</h3>
+        </div>
+    )
+}
+
+function AccordionBody() {
+    return (
+        <div>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+        </div>
+    )
+}
+
 
 export default App;
