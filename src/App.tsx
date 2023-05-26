@@ -8,15 +8,14 @@ function App() {
         <div>
             <PageTitle title={'This is APP commponent'}/>
             <PageTitle title={'My friends'}/>
-            <Rating value={3}/>
-            <Accordion title = {'First Title'}/>
-            <Accordion title = {'Second Title'}/>
             <Rating value={0}/>
             <Rating value={1}/>
             <Rating value={2}/>
             <Rating value={3}/>
             <Rating value={4}/>
             <Rating value={5}/>
+            <Accordion titleValue= {'Menu'}/>
+            <Accordion titleValue= {'Users'}/>
         </div>
     );
 }
